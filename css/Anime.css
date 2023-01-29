@@ -1,0 +1,836 @@
+a, a:visited, a:active {
+  text-decoration: none;
+  color:white;
+}
+
+body {
+  font-family: futura-pt;
+}
+.HomePic {
+}
+
+.NavLeft {
+  position: absolute;
+  top:50px;
+  left:100px;
+  color:white;
+  font-size:70px;
+}
+
+.NavRight {
+  position: absolute;
+  top:50px;
+  right:100px;
+  color:white;
+  font-size:70px;
+}
+
+.HomeHeader {
+  position: absolute;
+  top:500px;
+  text-align: center;
+  color:white;
+  font-size:200px;
+  left:330px;
+}
+
+.HomeHeaderUnderline {
+  position: absolute;
+  top:690px;
+  left:330px;
+  background-color:white;
+  height:6px;
+  width:1243px;
+}
+
+.JJKsymbol {
+  position: absolute;
+  top:1095px;
+  left:47.5%;
+}
+
+.JJKsymbolleft {
+  position: absolute;
+  top:1140px;
+  width:840px;
+  height:8px;
+  background-color:white;
+  left:40px;
+}
+
+.JJKsymbolright {
+  position: absolute;
+  top:1140px;
+  width:840px;
+  height:8px;
+  background-color:white;
+  right:40px;
+}
+
+.Me {
+  position: relative;
+  top:150px;
+  width:90%;
+  left:5%;
+  color:white;
+  font-size:30px;
+  text-align: center;
+}
+
+.Small {
+  font-size:50px;
+}
+
+.AnimeContainer {
+  position: absolute;
+  background-color:black;
+  top:1400px;
+  width:100%;
+  height:2000px;
+}
+
+/* Chainsaw */
+.AnimeOne {
+  position: absolute;
+  top:0px;
+  left:50px;
+}
+
+.HomeTextOne {
+  position: absolute;
+  width:840px;
+  color:white;
+  font-size: 100px;
+  top:80px;
+  right:0px;
+  text-align: center;
+}
+
+/* Demon Slayer */
+.AnimeTwo {
+  position: absolute;
+  top:600px;
+  right:50px;
+}
+
+.HomeTextTwo {
+  position: absolute;
+  width:840px;
+  color:white;
+  font-size: 100px;
+  top:680px;
+  left:0px;
+  text-align: center;
+}
+
+/* Fate Stay */
+.AnimeThree {
+  position: absolute;
+  top:1200px;
+  left:50px;
+}
+
+.HomeTextThree {
+  position: absolute;
+  width:840px;
+  color:white;
+  font-size: 100px;
+  top:1280px;
+  right:0px;
+  text-align: center;
+}
+
+/* Goblin Slayer */
+.AnimeFour {
+  position: absolute;
+  top:1800px;
+  right:50px;
+}
+
+.HomeTextFour {
+  position: absolute;
+  width:840px;
+  color:white;
+  font-size: 100px;
+  top:1880px;
+  left:0px;
+  text-align: center;
+}
+
+/* JJK */
+.AnimeFive {
+  position: absolute;
+  top:2400px;
+  left:50px;
+}
+
+.HomeTextFive {
+  position: absolute;
+  width:840px;
+  color:white;
+  font-size: 100px;
+  top:2480px;
+  right:0px;
+  text-align: center;
+}
+
+/* More Than a Married Couple */
+.AnimeSix {
+  position: absolute;
+  top:3000px;
+  right:50px;
+}
+
+.HomeTextSix {
+  position: absolute;
+  width:840px;
+  color:white;
+  font-size: 100px;
+  top:3080px;
+  left:0px;
+  text-align: center;
+}
+
+/* My Hero */
+.AnimeSeven {
+  position: absolute;
+  top:3600px;
+  left:50px;
+}
+
+.HomeTextSeven {
+  position: absolute;
+  width:840px;
+  color:white;
+  font-size: 100px;
+  top:3680px;
+  right:0px;
+  text-align: center;
+}
+
+/* Promised */
+.AnimeEight {
+  position: absolute;
+  top:4200px;
+  right:50px;
+}
+
+.HomeTextEight {
+  position: absolute;
+  width:840px;
+  color:white;
+  font-size: 100px;
+  top:4280px;
+  left:0px;
+  text-align: center;
+}
+
+/* Tokyo Revengers */
+.AnimeNine {
+  position: absolute;
+  top:4800px;
+  left:50px;
+}
+
+.HomeTextNine {
+  position: absolute;
+  width:840px;
+  color:white;
+  font-size: 100px;
+  top:4880px;
+  right:0px;
+  text-align: center;
+}
+
+
+
+/* Favorites Page */
+
+.FavPic {
+  position: absolute;
+  top:-400px;
+  left:430px;
+}
+
+.FavHeader {
+  position: absolute;
+  top:300px;
+  text-align: center;
+  color:white;
+  font-size:180px;
+  left:650px;
+}
+
+.FavHeaderUnderline {
+  position: absolute;
+  top:470px;
+  left:600px;
+  background-color:white;
+  height:6px;
+  width:670px;
+}
+
+.FavOne {
+  position: absolute;
+  top:900px;
+  left:0px;
+  width:100%;
+  height:900px;
+}
+
+.OneCornerOne {
+  position: absolute;
+  top:-30px;
+  left:20px;
+  background-color:white;
+  height:10px;
+  width:80px;
+}
+
+.OneCornerTwo {
+  position: absolute;
+  top:-30px;
+  left:20px;
+  background-color:white;
+  height:80px;
+  width:10px;
+}
+
+.OneCornerThree {
+  position: absolute;
+  top:-30px;
+  right:20px;
+  background-color:white;
+  height:10px;
+  width:80px;
+}
+
+.OneCornerFour {
+  position: absolute;
+  top:-30px;
+  right:20px;
+  background-color:white;
+  height:80px;
+  width:10px;
+}
+
+.OneCornerFive {
+  position: absolute;
+  top:900px;
+  left:20px;
+  background-color:white;
+  height:10px;
+  width:80px;
+}
+
+.OneCornerSix {
+  position: absolute;
+  top:820px;
+  left:20px;
+  background-color:white;
+  height:80px;
+  width:10px;
+}
+
+.OneCornerSeven {
+  position: absolute;
+  top:900px;
+  right:20px;
+  background-color:white;
+  height:10px;
+  width:80px;
+}
+
+.OneCornerEight {
+  position: absolute;
+  top:820px;
+  right:20px;
+  background-color:white;
+  height:80px;
+  width:10px;
+}
+
+.FavOneTitle {
+  position: relative;
+  top:0px;
+  left:0px;
+  color:white;
+  text-align: center;
+  font-size:70px;
+}
+
+.FavOnePic {
+  position: relative;
+  top:200px;
+  left:100px;
+  border: 2px white solid;
+  height:432px;
+  width:768px;
+}
+
+.FavOneText {
+  position: absolute;
+  top:170px;
+  left:1000px;
+  color:white;
+  font-size:40px;
+  width:39%;
+}
+
+.FavOneUnderline {
+  position: absolute;
+  top:80px;
+  left:750px;
+  background-color:white;
+  height:4px;
+  width:400px;
+}
+
+.FavTwoPic {
+  position: relative;
+  top:200px;
+  left:100px;
+  border: 2px white solid;
+  height:432px;
+  width:768px;
+}
+
+.FavTwoText {
+  position: absolute;
+  top:170px;
+  left:1000px;
+  color:white;
+  font-size:40px;
+  width:39%;
+}
+
+.FavTwo {
+  position: absolute;
+  top:1900px;
+  left:0px;
+  width:100%;
+  height:1200px;
+}
+
+.TwoCornerOne {
+  position: absolute;
+  top:-30px;
+  left:20px;
+  background-color:white;
+  height:10px;
+  width:80px;
+}
+
+.TwoCornerTwo {
+  position: absolute;
+  top:-30px;
+  left:20px;
+  background-color:white;
+  height:80px;
+  width:10px;
+}
+
+.TwoCornerThree {
+  position: absolute;
+  top:-30px;
+  right:20px;
+  background-color:white;
+  height:10px;
+  width:80px;
+}
+
+.TwoCornerFour {
+  position: absolute;
+  top:-30px;
+  right:20px;
+  background-color:white;
+  height:80px;
+  width:10px;
+}
+
+.TwoCornerFive {
+  position: absolute;
+  top:900px;
+  left:20px;
+  background-color:white;
+  height:10px;
+  width:80px;
+}
+
+.TwoCornerSix {
+  position: absolute;
+  top:820px;
+  left:20px;
+  background-color:white;
+  height:80px;
+  width:10px;
+}
+
+.TwoCornerSeven {
+  position: absolute;
+  top:900px;
+  right:20px;
+  background-color:white;
+  height:10px;
+  width:80px;
+}
+
+.TwoCornerEight {
+  position: absolute;
+  top:820px;
+  right:20px;
+  background-color:white;
+  height:80px;
+  width:10px;
+}
+
+.FavTwoTitle {
+  position: relative;
+  top:0px;
+  left:0px;
+  color:white;
+  text-align: center;
+  font-size:70px;
+}
+
+.FavTwoUnderline {
+  position: absolute;
+  top:80px;
+  left:675px;
+  background-color:white;
+  height:4px;
+  width:555px;
+}
+
+.FavTwoPic {
+  position: relative;
+  top:200px;
+  left:100px;
+  border: 2px white solid;
+  height:432px;
+  width:768px;
+}
+
+.FavTwoText {
+  position: absolute;
+  top:170px;
+  left:1000px;
+  color:white;
+  font-size:40px;
+  width:39%;
+}
+
+.FavThreePic {
+  position: relative;
+  top:200px;
+  left:100px;
+  border: 2px white solid;
+  height:432px;
+  width:768px;
+}
+
+.FavThreeText {
+  position: absolute;
+  top:170px;
+  left:1000px;
+  color:white;
+  font-size:40px;
+  width:39%;
+}
+
+.FavThree {
+  position: absolute;
+  top:2900px;
+  left:0px;
+  width:100%;
+  height:950px;
+}
+
+.ThreeCornerOne {
+  position: absolute;
+  top:-30px;
+  left:20px;
+  background-color:white;
+  height:10px;
+  width:80px;
+}
+
+.ThreeCornerTwo {
+  position: absolute;
+  top:-30px;
+  left:20px;
+  background-color:white;
+  height:80px;
+  width:10px;
+}
+
+.ThreeCornerThree {
+  position: absolute;
+  top:-30px;
+  right:20px;
+  background-color:white;
+  height:10px;
+  width:80px;
+}
+
+.ThreeCornerFour {
+  position: absolute;
+  top:-30px;
+  right:20px;
+  background-color:white;
+  height:80px;
+  width:10px;
+}
+
+.ThreeCornerFive {
+  position: absolute;
+  top:900px;
+  left:20px;
+  background-color:white;
+  height:10px;
+  width:80px;
+}
+
+.ThreeCornerSix {
+  position: absolute;
+  top:820px;
+  left:20px;
+  background-color:white;
+  height:80px;
+  width:10px;
+}
+
+.ThreeCornerSeven {
+  position: absolute;
+  top:900px;
+  right:20px;
+  background-color:white;
+  height:10px;
+  width:80px;
+}
+
+.ThreeCornerEight {
+  position: absolute;
+  top:820px;
+  right:20px;
+  background-color:white;
+  height:80px;
+  width:10px;
+}
+
+.FavThreeTitle {
+  position: relative;
+  top:0px;
+  left:0px;
+  color:white;
+  text-align: center;
+  font-size:70px;
+}
+
+.FavThreeUnderline {
+  position: absolute;
+  top:80px;
+  left:605px;
+  background-color:white;
+  height:4px;
+  width:700px;
+}
+
+
+.FavThreePic {
+  position: relative;
+  top:200px;
+  left:100px;
+  border: 2px white solid;
+  height:432px;
+  width:768px;
+}
+
+.FavThreeText {
+  position: absolute;
+  top:170px;
+  left:1000px;
+  color:white;
+  font-size:40px;
+  width:39%;
+}
+
+.Background {
+  position: absolute;
+  top:0px;
+  left:0px;
+}
+/* -------------------------- */
+/* Planned Page */
+/* -------------------------- */
+
+.PlannedPic {
+  position: absolute;
+  left:192px;
+  top:-50px;
+}
+
+.PlannedHeader {
+  position: absolute;
+  top:300px;
+  text-align: center;
+  color:white;
+  font-size:180px;
+  left:668px;
+}
+
+.PlannedHeaderUnderline {
+  position: absolute;
+  top:470px;
+  left:680px;
+  background-color:white;
+  height:6px;
+  width:545px;
+}
+
+.line {
+  position: absolute;
+  top:470px;
+  height:6px;
+  width:610px;
+  left:0px;
+  background-color:red;
+}
+
+.CV {
+  position: absolute;
+  left:30px;
+  top:900px;
+}
+
+.TextContainerOne {
+  position: absolute;
+  height:380px;
+  width:1030px;
+  top:950px;
+  right:0px;
+}
+
+.PlannedTextOne {
+  position: relative;
+  color:white;
+  font-size: 100px;
+  top:0px;
+  right:0px;
+  text-align:center;
+}
+
+.DN {
+  position: absolute;
+  right:30px;
+  top:1500px;
+}
+
+.TextContainerTwo {
+  position: absolute;
+  height:380px;
+  width:1030px;
+  top:1550px;
+  left:0px;
+}
+
+.PlannedTextTwo {
+  position: relative;
+  color:white;
+  font-size: 100px;
+  top:0px;
+  left:0px;
+  text-align:center;
+}
+
+.FMA {
+  position: absolute;
+  left:30px;
+  top:2100px;
+}
+
+.TextContainerThree {
+  position: absolute;
+  height:380px;
+  width:1030px;
+  top:2150px;
+  right:0px;
+}
+
+.PlannedTextThree {
+  position: relative;
+  color:white;
+  font-size: 100px;
+  top:0px;
+  right:0px;
+  text-align:center;
+}
+
+.HXH {
+  position: absolute;
+  right:30px;
+  top:2700px;
+}
+
+.TextContainerFour {
+  position: absolute;
+  height:380px;
+  width:1030px;
+  top:2750px;
+  left:0px;
+}
+
+.PlannedTextFour {
+  position: relative;
+  color:white;
+  font-size: 100px;
+  top:0px;
+  left:0px;
+  text-align:center;
+}
+
+.SAO {
+  position: absolute;
+  left:30px;
+  top:3300px;
+}
+
+.TextContainerFive {
+  position: absolute;
+  height:380px;
+  width:1030px;
+  top:3350px;
+  right:0px;
+}
+
+.PlannedTextFive {
+  position: relative;
+  color:white;
+  font-size: 100px;
+  top:0px;
+  left:0px;
+  text-align:center;
+}
+
+.SPY {
+  position: absolute;
+  right:30px;
+  top:3900px;
+}
+
+.TextContainerSix {
+  position: absolute;
+  height:380px;
+  width:1030px;
+  top:3950px;
+  left:0px;
+}
+
+.PlannedTextSix {
+  position: relative;
+  color:white;
+  font-size: 100px;
+  top:0px;
+  left:0px;
+  text-align:center;
+}

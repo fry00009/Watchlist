@@ -1,0 +1,282 @@
+body {
+  overflow:hidden;
+}
+
+a, a:visited, a:active, a:hover {
+  text-decoration: none;
+  color:white;
+}
+
+.Background {
+
+}
+
+.cover {
+  position: absolute;
+  background-color:black;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:100%;
+  opacity:30%;
+}
+
+.Home {
+  position: absolute;
+  top:30px;
+  left:50px;
+  color:white;
+  font-size:40px;
+  z-index:2;
+  font-family: futura-pt;
+}
+
+.Title {
+  position: absolute;
+  top:200px;
+  left:80px;
+  color:white;
+  font-size:90px;
+  font-weight: bold;
+  font-family:futura-pt;
+  font-weight:600;
+}
+
+.Synopsis {
+  position: absolute;
+  top:310px;
+  left:80px;
+  color:white;
+  font-size:30px;
+  width:40%;
+  font-family: futura-pt;
+}
+
+.Lower {
+  position: absolute;
+  top:80px;
+  width:780px;
+}
+
+.Genre {
+  position: absolute;
+  top:550px;
+  left:80px;
+  color:white;
+  font-size:30px;
+  font-family: futura-pt;
+}
+
+.Watch {
+  position: absolute;
+  top:590px;
+  left:80px;
+  opacity:90%;
+}
+
+.Rating {
+  position: absolute;
+  top:650px;
+  left:80px;
+  color:white;
+  font-size:20px;
+  font-family: futura-pt;
+}
+
+.Container {
+  position: absolute;
+  bottom:0px;
+  right:140px;
+  /* border: 5px solid white; */
+  height:500px;
+  width:810px;
+  overflow: hidden;
+}
+
+.Seasons {
+  position: absolute;
+  bottom:0px;
+  right:50px;
+}
+
+.Seasons2 {
+  position: absolute;
+  bottom:0px;
+  right:950px;
+}
+
+.SeasonNumber {
+  font-size:30px;
+  color:white;
+  font-family:futura-pt;
+}
+
+.EpisodeNumber {
+  font-size:20px;
+  color:white;
+  font-family: futura-pt;
+}
+
+.SeasonNumber2 {
+  font-size:30px;
+  color:white;
+  font-family:futura-pt;
+  opacity:0%;
+}
+
+.EpisodeNumber2 {
+  font-size:20px;
+  color:white;
+  font-family: futura-pt;
+  opacity:0%;
+}
+
+ .One {
+  position: absolute;
+  bottom:400px;
+  right:625px;
+ }
+
+ .Two {
+  position: absolute;
+  bottom:400px;
+  right:360px;
+ }
+
+ .Three {
+  position: absolute;
+  bottom:400px;
+  right:85px;
+ }
+
+.Four {
+  position: absolute;
+  bottom:355px;
+  right:625px;
+}
+
+.Movie {
+  position: absolute;
+  bottom:355px;
+  right:380px;
+
+}
+.Five {
+  position: absolute;
+  bottom:355px;
+  right:355px;
+}
+
+.Six {
+  position: absolute;
+  bottom:355px;
+  right:90px;
+}
+
+.Rarrow {
+  position: absolute;
+  right:15px;
+  bottom:200px;
+  color:white;
+  font-size:22px;
+  text-align: center;
+  font-family: futura-pt-bold;
+}
+
+.Larrow {
+  position: absolute;
+  right:960px;
+  bottom:200px;
+  color:white;
+  font-size:22px;
+  text-align: center;
+  font-family: futura-pt-bold;
+  opacity:0%;
+}
+
+.Big {
+  font-size:40px;
+}
+
+.Slide1left {
+  animation: slide1left 2s linear forwards;
+}
+
+.Slide1right {
+  animation: slide1right 2s linear forwards;
+}
+
+.Slide2left {
+  animation: slide2left 2s linear forwards;
+}
+
+.Slide2right {
+  animation: slide2right 2s linear forwards;
+}
+
+.Fadein {
+  animation: fadein .5s linear forwards;
+  animation-delay:2s;
+}
+
+.Fadeout {
+  animation: fadeout .5s linear forwards;
+}
+
+.Opacity0 {
+  opacity:0%;
+}
+
+.Opacity100 {
+  opacity:100%;
+}
+
+.Show {
+  animation: show 1s linear forwards;
+  animation-delay:2s;
+}
+
+.Hide {
+  animation: hide 1s linear forwards;
+}
+
+@keyframes slide1left {
+  0%   {transform: translateX(900px);}
+  100% {transform: translateX(0px);}
+}
+
+@keyframes slide1right {
+  0%   {transform: translateX(0px);}
+  100% {transform: translateX(900px);}
+}
+
+@keyframes slide2left {
+  0%   {transform: translateX(900px);}
+  100% {transform: translateX(0px);}
+}
+
+@keyframes slide2right {
+  0%   {transform: translateX(0px);}
+  100% {transform: translateX(900px);}
+}
+
+@keyframes fadeout {
+  0%   {opacity:100%;}
+  100% {opacity:0%;}
+}
+
+@keyframes fadein {
+0%    {opacity:0%;}
+100%  {opacity:100%;}
+}
+
+@keyframes show {
+  0%   {opacity:0%;}
+  100% {opacity:100%;}
+}
+
+@keyframes hide {
+  0%   {opacity:100%;}
+  100% {opacity:0%;}
+  }
+}
